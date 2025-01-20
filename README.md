@@ -1,6 +1,6 @@
 # Cinemate
 
-**[Live Demo: Taskmate](https://cinemate-mk.netlify.app/)**
+**[Live Demo: Cinemate](https://cinemate-mk.netlify.app/)**
 
 Cinemate is a ReactJS application that provides users with a comprehensive movie listing, including popular, top-rated, and upcoming movies. The app integrates with the TMDB API to fetch movie data and offers features like search functionality, dark/light mode, and mobile responsiveness.
 
