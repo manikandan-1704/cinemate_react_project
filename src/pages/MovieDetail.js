@@ -10,6 +10,8 @@ export const MovieDetail = () => {
   const image = movie.poster_path ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : Backup;
   useTitle(movie.title);
 
+  // useEffect to fetch movie status
+  
   useEffect(() => {
     async function fetchMovie() {
       const response = await fetch(`https://api.themoviedb.org/3/movie/${params.id}?api_key=deff424e6493a6018dea8d18b2b6ec76`);
